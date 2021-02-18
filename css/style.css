@@ -1,0 +1,98 @@
+body {
+  overflow-x: hidden;
+}
+.navbar .nva-link {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.navbar .nav-item.active {
+  border-left: #444 2px solid;
+}
+
+.carousel-item {
+  height: 450px;
+}
+
+.carousel-image-1 {
+  background: url("../glozzom/image1.jpg");
+  background-size: cover;
+}
+
+.carousel-image-2 {
+  background: url("../glozzom/image2.jpg");
+  background-size: cover;
+}
+
+.carousel-image-3 {
+  background: url("../glozzom/image3.jpg");
+  background-size: cover;
+}
+
+#home-heading {
+  position: relative;
+  min-height: 200px;
+  background: url("../glozzom/gian-d-jZxairpkhho-unsplash.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+}
+
+#video-play {
+  position: relative;
+  min-height: 300px;
+  background: url("../glozzom/media.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  text-align: center;
+  color: #fff;
+}
+
+#page-header {
+  height: 400px;
+  background: url("../glozzom/image1.jpg");
+
+  background-attachment: fixed;
+  color: #fff;
+  border-bottom: 1px #eee solid;
+  padding-top: 50px;
+}
+
+.about-img {
+  margin-top: -50px;
+  max-width: 400px;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body {
+  text-justify: newspaper;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+footer.text-center {
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+}
